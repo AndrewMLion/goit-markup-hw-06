@@ -124,7 +124,6 @@
                 </div>
               </div>
             </li>
-
             <li class="doing-item">
               <div class="item-thumb">
                 <img src="./images/box_2.jpg" alt="Разработка мобильных приложений" width="370" />
@@ -385,6 +384,26 @@
             <use class="icon-close" href="./images/icon.svg#icon-close-black"></use>
           </svg>
         </button>
+
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+
+        <form class="form js-speaker-form">
+          <label for="name">Имя</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="tel">Телефон</label>
+          <input type="text" name="tel" id="tel" />
+
+          <label for="mail">Почта</label>
+          <input type="email" name="mail" id="mail" />
+
+          <label for="comment">Комментарий</label>
+          <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+          <button class="submit" type="submit">Отправить</button>
+          
+          <input type="checkbox" name="agreement" id="agreement">
+          <label for="agreement">Соглашаюсь с рассылкой и принимаю <a class="link agreement" href="">Условия договора</a></label>
       </div>
     </div>
     <script src="./js/modal.js"></script>

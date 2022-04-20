@@ -76,6 +76,7 @@ svg {
 .header {
   border-bottom: 1px solid #ececec;
 }
+
 .link.current .hero,
 .footer {
   background-color: var(--header-and-footer-color);
@@ -608,6 +609,15 @@ svg {
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
+}
+
+.modal-title {
+  padding-top: 40px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
 }
 
 /* PORTFOLIO */

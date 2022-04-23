@@ -388,22 +388,36 @@
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
 
         <form class="form js-speaker-form">
-          <label for="name">Имя</label>
-          <input type="text" name="name" id="name" />
-
-          <label for="tel">Телефон</label>
-          <input type="text" name="tel" id="tel" />
-
-          <label for="mail">Почта</label>
-          <input type="email" name="mail" id="mail" />
-
-          <label for="comment">Комментарий</label>
-          <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-
-          <button class="submit" type="submit">Отправить</button>
           
-          <input type="checkbox" name="agreement" id="agreement">
-          <label for="agreement">Соглашаюсь с рассылкой и принимаю <a class="link agreement" href="">Условия договора</a></label>
+                <div class="form-filed">
+                  <label class="form-lable" for="name">Имя</label>
+                  <input class="form-input" type="text" name="name" id="name" autofocus />
+                </div>
+
+                <div class="form-filed">
+                  <label for="tel">Телефон</label>
+                  <input type="text" name="tel" id="tel" />
+                  </div>
+
+                  <div class="form-filed">
+                    <label for="mail">Почта</label>
+                    <input type="email" name="mail" id="mail" />
+                  </div>
+
+                  <div class="comment form-filed">
+                    <label for="comment">Комментарий</label>
+                    <textarea class="text-area" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                  </div>
+
+                  <div class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="agreement" id="agreement">
+                    <label class="checkbox-label" for="agreement">Соглашаюсь с рассылкой и принимаю <a class="link agreement" href="">Условия договора</a></label>
+                  </div>
+
+              <button class="submit" type="submit">Отправить</button>
+            
+            
+          
       </div>
     </div>
     <script src="./js/modal.js"></script>

@@ -413,7 +413,6 @@ svg {
 .social .list {
   display: flex;
   margin: 16px 32px 0 32px;
-  justify-content: space-between;
 }
 
 .social .item {
@@ -575,9 +574,10 @@ svg {
   max-height: 100%;
   width: 528px;
   max-width: 100%;
-  padding: 15px;
+  /* padding: 15px; */
 
   background-color: var(--background-color);
+  border-radius: 4px;
 
   transform: translate(-50%, -50%) scale(1);
 
@@ -618,6 +618,42 @@ svg {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
+}
+
+.form {
+  width: 448px;
+
+  margin-top: 12px;
+  margin-right: 40px;
+  margin-left: 40px;
+
+  text-align: center;
+}
+
+.form-filed {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-filed + .form-filed {
+  margin-top: 10px;
+}
+
+.text-area {
+  height: 120px;
+}
+
+.checkbox {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.submit {
+  text-align: center;
+  padding: 10px 55px;
+  margin-top: 40px;
 }
 
 /* PORTFOLIO */

@@ -631,6 +631,7 @@ svg {
 }
 
 .form-filed {
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -638,13 +639,6 @@ svg {
 
 .form-filed + .form-filed {
   margin-top: 10px;
-}
-
-.form-input {
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 11px;
 }
 
 .form-label {
@@ -657,7 +651,35 @@ svg {
   margin-bottom: 4px;
 }
 
-.comment.form-filed {
+.form-input-icon {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.form-input {
+  position: relative;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 11px;
+}
+
+.icon-modal-name {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 12px;
+
+  transform: translateY(-50%);
+}
+
+.form-input:focus {
+  border-color: #188ce8;
+}
+
+.form-input:focus ~ .icon-modal-name {
+  fill: var(--accent-color);
 }
 
 .text-area {

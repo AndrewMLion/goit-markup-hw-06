@@ -547,8 +547,44 @@ svg {
 }
 
 .subscribe {
+  position: relative;
   margin-top: 12px;
   margin-left: 93px;
+}
+
+.subscibe-mail {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+  border-radius: 4px;
+}
+
+.subscribe-input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.icon-send {
+  /* position: absolute; */
+  display: inline-block;
+  fill: #ffffff;
+  top: 0;
+  left: 0;
 }
 
 /* BACKDROP */

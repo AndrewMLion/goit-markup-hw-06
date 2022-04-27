@@ -376,16 +376,13 @@
             <div class="subscribe">
               <h3 class="subscribe-title">Подпишитесь на рассылку</h3>
               <div class="subscribe-input">
-                <label for=""><input class="subscibe-mail" type="text" placeholder="E-mail"></label>
-                
+                <label for=""><input class="subscibe-mail" type="text" placeholder="E-mail"></label>                
                 <button class="subscribe-btn">Подписаться<svg class="icon-send" width="24" height="24" >
-                  <use class="icon-send-use" href="./images/send.svg" ></use>
+                  <use class="icon-send-use" href="./images/icon.svg#send"></use>
                 </svg></button>
               </div>
             </div>
       </div>
-
-
     </footer>
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
@@ -436,8 +433,12 @@
                   </div>
 
                   <div class="checkbox">
-                    <input class="checkbox-input" type="checkbox" name="agreement" id="agreement">
-                    <label class="checkbox-label" for="agreement">Соглашаюсь с рассылкой и принимаю <a class="agreement" href="">Условия договора</a></label>
+                    
+                    <label class="checkbox-label" for="agreement">Соглашаюсь с рассылкой и принимаю<a class="agreement" href=""> Условия договора</a>
+                    <input class="checkbox-input" type="checkbox" name="agreement" id="agreement">  
+                    
+                    <span class="checkbox-icon"></span>
+                    </label>
                   </div>
 
               <button class="submit" type="submit">Отправить</button>

@@ -333,6 +333,9 @@ svg {
 }
 
 .item-thumb-text {
+  display: flex;
+  align-items: center;
+
   position: absolute;
   width: 370px;
   height: 70px;
@@ -344,14 +347,17 @@ svg {
 }
 
 .doing-thumb-text {
+  display: flex;
+  justify-content: center;
+
   font-weight: 700;
   line-height: 1.14;
+
+  width: 100%;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
-
-  margin: 27px 82px;
 }
 
 /* Team */
@@ -637,7 +643,6 @@ svg {
   max-height: 100%;
   width: 528px;
   max-width: 100%;
-  /* padding: 15px; */
 
   background-color: var(--background-color);
   border-radius: 4px;

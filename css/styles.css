@@ -790,7 +790,8 @@ svg {
   margin-top: 4px;
 }
 
-.text-area:focus {
+.text-area:focus,
+.text-area:hover {
   border-color: var(--accent-color);
 }
 

@@ -576,9 +576,6 @@ svg {
   outline: none;
 }
 
-.subscibe-mail:focus {
-}
-
 .subscribe-input {
   display: flex;
   margin-top: 20px;
@@ -798,8 +795,6 @@ svg {
 
 .checkbox-label {
   position: relative;
-  display: flex;
-  align-items: center;
 
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -845,9 +840,7 @@ svg {
 
 .submit {
   display: flex;
-  align-items: center;
 
-  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;

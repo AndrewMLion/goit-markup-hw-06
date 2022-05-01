@@ -640,11 +640,6 @@ svg {
   top: 50%;
   left: 50%;
 
-  height: 581px;
-  max-height: 100%;
-  width: 528px;
-  max-width: 100%;
-
   background-color: var(--background-color);
   border-radius: 4px;
 
@@ -689,7 +684,6 @@ svg {
 }
 
 .modal-title {
-  padding-top: 40px;
   padding-bottom: 12px;
 
   font-weight: 700;
@@ -699,24 +693,14 @@ svg {
 }
 
 .form {
-  width: 448px;
-
-  margin-right: auto;
-  margin-left: auto;
+  padding: 40px;
 }
 
-.form-filed {
-  display: flex;
-  flex-direction: column;
-
-  width: 448px;
-}
-
-.comment.form-filed {
+.comment {
   margin-bottom: 20px;
 }
 
-.form-filed + .form-filed {
+.form-label + .form-label {
   margin-top: 10px;
 }
 
@@ -737,6 +721,8 @@ svg {
   position: relative;
   display: inline-flex;
   flex-direction: column;
+
+  margin-top: 4px;
 }
 
 .form-input {
@@ -746,13 +732,13 @@ svg {
   box-sizing: border-box;
   border-radius: 4px;
 
-  margin-top: 4px;
   padding: 11px;
   padding-left: 42px;
 
   outline: none;
 
   transition: border-color var(--timing);
+  font-size: 14px;
 }
 
 .icon-modal-name {
@@ -869,7 +855,7 @@ svg {
   color: var(--background-color);
 
   padding: 10px 55px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
 

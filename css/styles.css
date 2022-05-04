@@ -78,7 +78,7 @@ svg {
   border-bottom: 1px solid #ececec;
 }
 
-.link.current .hero,
+.hero,
 .footer {
   background-color: var(--header-and-footer-color);
 }
